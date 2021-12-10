@@ -22,7 +22,7 @@ library(solitude)
 ```
 
 ```{r, message = FALSE}
-data <- read_csv("C:\\Users\\ryant\\Documents\\Fall\\Machine Learning\\Final Project\\loan_train.csv") %>%
+data <- read_csv("loan_train.csv") %>%
   clean_names() %>%
   filter(!is.na(id))
 ```
